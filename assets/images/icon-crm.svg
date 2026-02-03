@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="12" fill="#fff"/>
+  <g fill="#2f9adf">
+    <rect x="16" y="22" width="68" height="14" rx="4"/>
+    <rect x="16" y="44" width="68" height="14" rx="4"/>
+    <rect x="16" y="66" width="44" height="14" rx="4"/>
+  </g>
+  <path d="M66 64 L76 74 L92 48" stroke="#27ae60" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="50" y="94" font-size="8" text-anchor="middle" fill="#666">Invoicing</text>
+</svg>

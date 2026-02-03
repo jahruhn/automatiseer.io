@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="b" x1="0" x2="1">
+      <stop offset="0" stop-color="#f0f8ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#b)" rx="12"/>
+  <g transform="translate(40,40)" fill="#2f9adf" opacity="0.9">
+    <rect x="0" y="0" width="240" height="120" rx="8"/>
+    <rect x="280" y="0" width="440" height="240" rx="8"/>
+  </g>
+  <text x="400" y="320" font-family="Arial" font-size="20" fill="#2c3e50" text-anchor="middle">Illustratie: automatiseringsflow</text>
+</svg>
