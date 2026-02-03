@@ -4,11 +4,16 @@ title: Home
 description: "Kant-en-klare n8n en Power Automate workflows voor sales, marketing en business processen. Bespaar tijd en geld met onze templates."
 ---
 
-# Automatiseer Je Sales & Marketing met n8n en Power Automate
-
-**Kant-en-klare workflows** voor: ✅ **Sales automatisering** (LinkedIn, CRM, follow-ups) ✅ **Marketing workflows** (e-mailcampagnes, leadgeneratie) ✅ **Business processen** (facturatie, klantenservice, rapportages)
-
-🚀 **Bespaar tijd en geld** met onze templates. **Geen technische kennis nodig!**
+<div class="hero-section">
+  <div class="hero-content">
+    <h1>Automatiseer Je Sales & Marketing met n8n en Power Automate</h1>
+    <p class="hero-subtitle">Kant-en-klare workflows voor sales, marketing en business processen. Bespaar tijd en geld met onze templates. Geen technische kennis nodig!</p>
+    <a href="{{ site.baseurl }}/templates" class="cta-button">Bekijk Templates</a>
+  </div>
+  <div class="hero-image">
+    <img src="{{ site.baseurl }}/assets/images/hero-placeholder.svg" alt="Automatiseer je sales">
+  </div>
+</div>
 
 ---
 
@@ -78,12 +83,19 @@ description: "Kant-en-klare n8n en Power Automate workflows voor sales, marketin
 
 ## 🛒 Betalen
 
-### LinkedIn Sales Navigator Template **Prijs: €50**
+### LinkedIn Sales Navigator Template
+**Prijs: €50**
 
-{% include stripe_button.html   title="LinkedIn Sales Navigator Template"   description="Automatiseer je LinkedIn-leads met Power Automate/n8n"   price="50"   stripe_id="buy_btn_123"   coinbase_id="prod_123" %}
-
+{% include stripe_button.html
+  title="LinkedIn Sales Navigator Template"
+  description="Automatiseer je LinkedIn-leads met Power Automate/n8n"
+  price="50"
+  stripe_id="buy_btn_123"
+  coinbase_id="prod_123"
+%}
 ---
 
 ## 📞 Contact
 
 Vragen? Stuur een bericht via [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}/) of e-mail: `<jouw-email>`.
+

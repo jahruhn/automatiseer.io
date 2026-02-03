@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop stop-color="#e6f2fb" offset="0"/>
+      <stop stop-color="#f8fbff" offset="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)" rx="20"/>
+  <g transform="translate(80,120)" fill="#cfe8fb">
+    <rect x="0" y="0" width="440" height="240" rx="12"/>
+    <rect x="480" y="0" width="640" height="240" rx="12"/>
+    <rect x="0" y="320" width="1120" height="240" rx="12"/>
+  </g>
+  <text x="50%" y="55%" font-family="sans-serif" font-size="44" fill="#2c3e50" text-anchor="middle">Hero afbeelding (vervang met je eigen afbeelding)</text>
+</svg>
