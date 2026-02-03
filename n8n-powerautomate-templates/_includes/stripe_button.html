@@ -1,0 +1,20 @@
+<div class="payment-options">
+  <h3>Betaal met:</h3>
+
+  <!-- Stripe Buy Button -->
+  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+  <stripe-buy-button
+    buy-button-id="{{ include.stripe_id }}"
+    publishable-key="pk_live_YOUR_PUBLISHABLE_KEY">
+  </stripe-buy-button>
+
+  <!-- Coinbase Commerce Button -->
+  <script src="https://commerce.coinbase.com/buttons.js"></script>
+  <coinbase-commerce-button
+    checkout-id="{{ include.coinbase_id }}"
+    data-name="{{ include.title }}"
+    data-description="{{ include.description }}"
+    data-price="{{ include.price }}"
+    data-currency="EUR">
+  </coinbase-commerce-button>
+</div>

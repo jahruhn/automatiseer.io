@@ -1,0 +1,70 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <!-- Jekyll SEO Tag -->
+  {% seo %}
+
+  <!-- Modern CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.png">
+
+  <!-- Structured Data voor AI/zoekmachines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "description": "{{ site.description }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author }}",
+      "url": "https://www.linkedin.com/in/{{ site.linkedin_username }}/",
+      "sameAs": [
+        "https://www.linkedin.com/in/{{ site.linkedin_username }}/",
+        "https://github.com/{{ site.github_username }}"
+      ]
+    },
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+        "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+        "name": "{{ page.title | default: site.title }}",
+        "description": "{{ page.description | default: site.description }}",
+        "inLanguage": "nl-NL",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "{{ site.url }}{{ site.baseurl }}/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}{{ site.baseurl }}",
+        "logo": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/{{ site.linkedin_username }}/",
+          "https://github.com/{{ site.github_username }}"
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Analytics (optioneel) -->
+  {% if jekyll.environment == 'production' %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);} 
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+  {% endif %}
+</head>

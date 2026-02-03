@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="nl">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    <!-- Modern JS (optioneel) -->
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+  </body>
+</html>

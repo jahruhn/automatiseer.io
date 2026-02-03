@@ -1,0 +1,26 @@
+# Site settings
+title: "Automatiseer Je Sales | n8n & Power Automate Templates"
+description: "Kant-en-klare workflows voor sales, marketing en business processen. Bespaar tijd met n8n en Power Automate. Gemaakt door Jeroen Tuijn."
+# Replace the placeholders below with your real usernames/URL
+url: "https://jahruhn.github.io"
+baseurl: "/n8n-powerautomate-templates"
+author: "Jeroen Tuijn"
+github_username: "jahruhn"
+twitter_username: "JeroenTuijn"
+linkedin_username: "jeroentuijn"
+
+# Modern Jekyll-plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Thema-instellingen (minimaal, maar modern)
+theme: null
+remote_theme: null
+
+# Structured Data voor AI/zoekmachines
+google_site_verification: "YOUR_GOOGLE_SITE_VERIFICATION"
+twitter:
+  username: "JeroenTuijn"
+  card: summary_large_image
