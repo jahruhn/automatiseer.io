@@ -15,10 +15,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# Theme: custom modern design (GitHub Pages–compatible; no gem theme to keep full layout control)
-# Supported alternatives: jekyll-theme-minimal, jekyll-theme-cayman, jekyll-theme-minima
+# Theme: use a modern GitHub Pages remote theme for a professional look
+# Note: Local files in `_layouts` or `_includes` will override the theme's templates.
 theme: null
-remote_theme: null
+remote_theme: pages-themes/modernist
 
 # Structured Data voor AI/zoekmachines
 google_site_verification: "YOUR_GOOGLE_SITE_VERIFICATION"

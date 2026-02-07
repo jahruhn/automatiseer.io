@@ -24,3 +24,5 @@ Ik heb deze templates gemaakt om **tijdrovende taken te automatiseren**, zodat j
 ### Contact
 
 Vragen? Stuur me een bericht via [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}/) of e-mail: `<jouw-email>`.
+
+{% include team.html %}
