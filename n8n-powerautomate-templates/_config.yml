@@ -15,8 +15,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# Theme: custom modern design (GitHub Pages–compatible; no gem theme to keep full layout control)
-# Supported alternatives: jekyll-theme-minimal, jekyll-theme-cayman, jekyll-theme-minima
+# Thema-instellingen (minimaal, maar modern)
 theme: null
 remote_theme: null
 
