@@ -1,66 +1,23 @@
-<header>
-  <nav>
-    <div class="logo">
+<header class="site-header">
+  <div class="wrapper">
+    <div class="site-title">
       <a href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/assets/images/logo.svg" alt="{{ site.title }}" width="150" height="32">
+        <img src="{{ site.baseurl }}/assets/images/logo.svg" alt="{{ site.title }}" width="150" height="40">
       </a>
     </div>
-    <ul class="nav-links">
-      <li><a href="{{ site.baseurl }}/">Home</a></li>
-      <li class="dropdown">
-        <a href="{{ site.baseurl }}/templates">Templates</a>
-        <ul class="dropdown-menu">
-          <li><a href="{{ site.baseurl }}/templates#n8n">n8n Templates</a></li>
-          <li><a href="{{ site.baseurl }}/templates#power-automate">Power Automate Templates</a></li>
+    <nav class="site-nav">
+      <div class="trigger">
+        <a class="page-link" href="#menu">Menu</a>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a class="page-link" href="{{ site.baseurl }}/">Home</a></li>
+          <li><a class="page-link" href="{{ site.baseurl }}/pages/templates">Templates</a></li>
+          <li><a class="page-link" href="{{ site.baseurl }}/pages/about">Over Mij</a></li>
+          <li><a class="page-link" href="{{ site.baseurl }}/blog">Blog</a></li>
+          <li><a class="page-link" href="{{ site.baseurl }}/pages/contact">Contact</a></li>
         </ul>
-      </li>
-      <li><a href="{{ site.baseurl }}/pages/about">Over Mij</a></li>
-      <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-      <li><a href="{{ site.baseurl }}/pages/contact">Contact</a></li>
-    </ul>
-    <div class="cta-button">
-      <a href="{{ site.baseurl }}/pages/templates" class="button">Templates Bekijken</a>
-    </div>
-    <div class="menu-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </nav>
+      </div>
+    </nav>
+  </div>
 </header>
-
-<style>
-  /* Basic dropdown and mobile menu styles */
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    background: white;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    list-style: none;
-  }
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-  .menu-toggle {
-    display: none;
-    cursor: pointer;
-  }
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-    .menu-toggle {
-      display: block;
-    }
-  }
-</style>
-
-<script>
-  // Toggle mobile menu
-  document.querySelector('.menu-toggle').addEventListener('click', function() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
-  });
-</script>

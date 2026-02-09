@@ -1,101 +1,73 @@
 ---
 layout: default
 title: Home
-description: "Kant-en-klare n8n en Power Automate workflows voor sales, marketing en business processen. Bespaar tijd en geld met onze templates."
 ---
 
-<div class="hero-section">
-  <div class="hero-content">
-    <h1>Automatiseer Je Sales & Marketing met n8n en Power Automate</h1>
-    <p class="hero-subtitle">Kant-en-klare workflows voor sales, marketing en business processen. Bespaar tijd en geld met onze templates. Geen technische kennis nodig!</p>
-    <a href="{{ site.baseurl }}/templates" class="cta-button">Bekijk Templates</a>
+# Welkom bij Automatiseer Je Sales
+
+Automatiseer je sales- en marketingprocessen met kant-en-klare **n8n** en **Power Automate** workflows. Bespaar tijd en vergroot je productiviteit.
+
+## 🚀 Populaire Templates
+
+<div class="templates-grid">
+  <div class="card">
+    <h3>🤖 AI Lead Scoring</h3>
+    <p>Automatisch leads scoren op basis van interacties en gedrag.</p>
+    <a href="{{ site.baseurl }}/pages/templates#ai-lead-scoring" class="button">Bekijk Template</a>
   </div>
-  <div class="hero-image">
-    <img src="{{ site.baseurl }}/assets/images/hero-placeholder.svg" alt="Automatiseer je sales">
+  
+  <div class="card">
+    <h3>🔗 LinkedIn naar HubSpot Sync</h3>
+    <p>Synchroniseer LinkedIn-leads direct met HubSpot.</p>
+    <a href="{{ site.baseurl }}/pages/templates#linkedin-hubspot" class="button">Bekijk Template</a>
+  </div>
+  
+  <div class="card">
+    <h3>📄 Automatische Contractverlengingen</h3>
+    <p>Herinneringen en acties voor contractverlengingen.</p>
+    <a href="{{ site.baseurl }}/pages/templates#contract-verlengingen" class="button">Bekijk Template</a>
   </div>
 </div>
 
----
+## 📝 Laatste Blogposts
 
-## 🔥 Populaire Templates
-
-<div class="templates-grid">
-  {% for template in site.data.templates limit:3 %}
-  <div class="template-card">
-    <h2>{{ template.title }}</h2>
-    <p>{{ template.description }}</p>
-    <a href="{{ template.url }}" class="button">Bekijk Template</a>
-  </div>
+<div class="blog-grid">
+  {% for post in site.posts limit:3 %}
+    <div class="card">
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="button">Lees Meer</a>
+    </div>
   {% endfor %}
 </div>
 
-[Bekijk alle templates →]({{ site.baseurl }}/templates)
+## 🎯 Waarom Automatiseren?
 
----
+- **Tijd besparen**: Automatiseer repetitieve taken.
+- **Fouten verminderen**: Menselijke fouten elimineren.
+- **Schaalbaarheid**: Groei zonder extra inspanning.
+- **Inzichten**: Betere data en rapportage.
 
-## 💡 Waarom Onze Templates?
+<a href="{{ site.baseurl }}/pages/templates" class="button">Bekijk Alle Templates</a>
 
-<div class="features">
-  <div class="feature">
-    <h3>🎯 Gemaakt door een Expert</h3>
-    <p>10+ jaar ervaring in sales en automatisering.</p>
-  </div>
-  <div class="feature">
-    <h3>⚡ Direct Inzetbaar</h3>
-    <p>Werkt out-of-the-box in n8n of Power Automate.</p>
-  </div>
-  <div class="feature">
-    <h3>📖 Stapsgewijze Handleidingen</h3>
-    <p>Duidelijke instructies voor elke workflow.</p>
-  </div>
-</div>
-
----
-
-## 📦 Hoe Werkt Het?
-
-<div class="steps">
-  <div class="step">
-    <h3>1. Kies een Template</h3>
-    <p>Selecteer een workflow uit onze bibliotheek.</p>
-  </div>
-  <div class="step">
-    <h3>2. Betaal Veilig</h3>
-    <p>Gebruik Stripe (iDEAL/creditcard) of Coinbase (crypto).</p>
-  </div>
-  <div class="step">
-    <h3>3. Download Direct</h3>
-    <p>Ontvang meteen de workflow en handleiding.</p>
-  </div>
-  <div class="step">
-    <h3>4. Ga Aan de Slag!</h3>
-    <p>Importeer in n8n/Power Automate en automatiseer!</p>
-  </div>
-</div>
-
----
-
-## 💬 Wat Klanten Zeggen
-
-> "Met de LinkedIn Sales Navigator-template van Jeroen heb ik **mijn leadgeneratie geautomatiseerd** en bespaar ik nu 5 uur per week!" — *Peter, Sales Manager*
-
----
-
-## 🛒 Betalen
-
-### LinkedIn Sales Navigator Template
-**Prijs: €50**
-
-{% include stripe_button.html
-  title="LinkedIn Sales Navigator Template"
-  description="Automatiseer je LinkedIn-leads met Power Automate/n8n"
-  price="50"
-  stripe_id="buy_btn_123"
-  coinbase_id="prod_123"
-%}
----
-
-## 📞 Contact
-
-Vragen? Stuur een bericht via [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}/) of e-mail: `<jouw-email>`.
-
+<style>
+  .templates-grid, .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: var(--border-radius);
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+</style>

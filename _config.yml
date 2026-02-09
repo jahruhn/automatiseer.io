@@ -1,40 +1,23 @@
 # Site settings
 title: "Automatiseer Je Sales | n8n & Power Automate Templates"
 description: "Kant-en-klare workflows voor sales, marketing en business processen. Bespaar tijd met n8n en Power Automate. Gemaakt door Jeroen Tuijn."
-# Replace the placeholders below with your real usernames/URL
-url: "https://jahruhn.github.io"
-baseurl: "/n8n-powerautomate-templates"
+url: "https://a-ads.com"
+baseurl: ""
 author: "Jeroen Tuijn"
+email: "your-email@example.com"
 github_username: "jahruhn"
 twitter_username: "JeroenTuijn"
 linkedin_username: "jeroentuijn"
 
-# Modern Jekyll-plugins
+# GitHub Pages settings
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Build settings
+markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-remote-theme
-
-# Theme: use a modern GitHub Pages remote theme for a professional look
-# Note: Local files in `_layouts` or `_includes` will override the theme's templates.
-theme: jekyll-theme-minimal
-remote_theme: pages-themes/minimal@v0.2.0
-
-# Structured Data for AI/search engines
-google_site_verification: "YOUR_GOOGLE_SITE_VERIFICATION"
-
-# Social Media
-social:
-  name: "Jeroen Tuijn"
-  links:
-    - https://www.linkedin.com/in/jeroentuijn
-    - https://github.com/jahruhn
-    - https://twitter.com/JeroenTuijn
-
-twitter:
-  username: "JeroenTuijn"
-  card: summary_large_image
 
 # Defaults
 defaults:
