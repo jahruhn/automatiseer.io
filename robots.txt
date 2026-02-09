@@ -1,0 +1,10 @@
+# robots.txt for {{ site.title }}
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 2

@@ -1,11 +1,66 @@
 <footer>
   <div class="container">
-    <div class="footer-links">
-      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">LinkedIn</a>
-      <a href="https://github.com/{{ site.github_username }}">GitHub</a>
-      <a href="{{ site.baseurl }}/contact">Contact</a>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="{{ site.baseurl }}/templates">Templates</a></li>
+          <li><a href="{{ site.baseurl }}/about">Over Mij</a></li>
+          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+          <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+          <li><a href="{{ site.baseurl }}/privacy">Privacybeleid</a></li>
+          <li><a href="{{ site.baseurl }}/sitemap.xml">Sitemap</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Volg Ons</h3>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noopener noreferrer">
+            <img src="{{ site.baseurl }}/assets/images/linkedin-icon.svg" alt="LinkedIn" width="24" height="24">
+          </a>
+          <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ site.baseurl }}/assets/images/github-icon.svg" alt="GitHub" width="24" height="24">
+          </a>
+          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ site.baseurl }}/assets/images/twitter-icon.svg" alt="Twitter" width="24" height="24">
+          </a>
+        </div>
+      </div>
     </div>
-    <p>© {{ "now" | date: "%Y" }} {{ site.author }} — Alle rechten voorbehouden.</p>
-    <p><a href="/privacy">Privacybeleid</a></p>
+    <div class="footer-bottom">
+      <p>© {{ "now" | date: "%Y" }} {{ site.author }} — Alle rechten voorbehouden.</p>
+    </div>
   </div>
 </footer>
+
+<style>
+  /* Footer styles */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .footer-section {
+    flex: 1;
+  }
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+  }
+</style>

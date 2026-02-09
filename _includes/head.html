@@ -3,6 +3,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | default: site.description }}">
 
+  <!-- GEO Meta Tags -->
+  <meta name="geo.region" content="NL">
+  <meta name="geo.position" content="52.3667;4.9000"> <!-- Amsterdam coordinates -->
+  <meta name="ICBM" content="52.3667, 4.9000">
+
+  <!-- Hreflang Tags (if multilingual) -->
+  <link rel="alternate" hreflang="nl" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+
   <!-- Jekyll SEO Tag -->
   {% seo %}
 
