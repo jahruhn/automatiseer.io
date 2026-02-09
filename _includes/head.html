@@ -17,7 +17,7 @@
   <!-- SVG fallback / modern browsers -->
   <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/images/favicon.svg">
 
-  <!-- Structured Data voor AI/zoekmachines -->
+  <!-- Structured Data for AI/search engines -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -31,7 +31,8 @@
       "url": "https://www.linkedin.com/in/{{ site.linkedin_username }}/",
       "sameAs": [
         "https://www.linkedin.com/in/{{ site.linkedin_username }}/",
-        "https://github.com/{{ site.github_username }}"
+        "https://github.com/{{ site.github_username }}",
+        "https://twitter.com/{{ site.twitter_username }}"
       ]
     },
     "@graph": [
@@ -55,19 +56,20 @@
         "logo": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
         "sameAs": [
           "https://www.linkedin.com/in/{{ site.linkedin_username }}/",
-          "https://github.com/{{ site.github_username }}"
+          "https://github.com/{{ site.github_username }}",
+          "https://twitter.com/{{ site.twitter_username }}"
         ]
       }
     ]
   }
   </script>
 
-  <!-- Google Analytics (optioneel) -->
+  <!-- Google Analytics (optional) -->
   {% if jekyll.environment == 'production' %}
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);} 
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'GA_MEASUREMENT_ID');
     </script>

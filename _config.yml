@@ -14,14 +14,45 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Theme: use a modern GitHub Pages remote theme for a professional look
 # Note: Local files in `_layouts` or `_includes` will override the theme's templates.
-theme: null
-remote_theme: pages-themes/modernist
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 
-# Structured Data voor AI/zoekmachines
+# Structured Data for AI/search engines
 google_site_verification: "YOUR_GOOGLE_SITE_VERIFICATION"
+
+# Social Media
+social:
+  name: "Jeroen Tuijn"
+  links:
+    - https://www.linkedin.com/in/jeroentuijn
+    - https://github.com/jahruhn
+    - https://twitter.com/JeroenTuijn
+
 twitter:
   username: "JeroenTuijn"
   card: summary_large_image
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
