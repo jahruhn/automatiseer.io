@@ -10,7 +10,8 @@ twitter_username: "JeroenTuijn"
 linkedin_username: "jeroentuijn"
 
 # GitHub Pages settings
-remote_theme: pages-themes/minimal@v0.2.0
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 # Build settings
 markdown: kramdown
@@ -21,6 +22,12 @@ plugins:
 
 # Defaults
 defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
   -
     scope:
       path: ""
