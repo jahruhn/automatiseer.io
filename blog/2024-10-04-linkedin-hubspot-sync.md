@@ -1,8 +1,9 @@
 ---
 layout: blog
-title: "🤝 LinkedIn + HubSpot Sync: Turn LinkedIn Leads into Sales (Without the Grunt Work)"
+title: "LinkedIn + HubSpot Sync: Turn LinkedIn Leads into Sales (Without the Grunt Work)"
 date: 2024-10-04
 description: "Stop copying and pasting LinkedIn leads into HubSpot. Automate it and watch your sales pipeline fill up!"
+image: /assets/images/blog-automation.png
 ---
 
 # LinkedIn + HubSpot Sync: The Ultimate Sales Hack
@@ -11,15 +12,15 @@ You’re scrolling through LinkedIn Sales Navigator, finding **golden leads** le
 
 ## How It Works (Spoiler: It’s Ridiculously Easy)
 
-1. **🎣 Lead Capture**: The workflow grabs leads directly from LinkedIn Sales Navigator. No more copy-paste marathons!
-2. **🔍 Data Enrichment**: It enhances lead data with extra details (like job titles, company info, etc.).
-3. **🔄 HubSpot Sync**: Leads are automatically created or updated in HubSpot. Like magic!
-4. **📩 Follow-Up**: Personalized follow-up sequences kick off immediately. Your leads get nurtured while you sleep.
+1. **Lead Capture**: The workflow grabs leads directly from LinkedIn Sales Navigator. No more copy-paste marathons!
+2. **Data Enrichment**: It enhances lead data with extra details (like job titles, company info, etc.).
+3. **HubSpot Sync**: Leads are automatically created or updated in HubSpot. Like magic!
+4. **Follow-Up**: Personalized follow-up sequences kick off immediately. Your leads get nurtured while you sleep.
 
 ## Why You’ll Love It
-- **⏳ Save Time**: No more manual data entry. Spend that time closing deals instead.
-- **🎯 Improve Accuracy**: Say goodbye to typos and missing fields.
-- **💰 Boost Conversions**: Follow up faster and turn leads into customers.
+- **Save Time**: No more manual data entry. Spend that time closing deals instead.
+- **Improve Accuracy**: Say goodbye to typos and missing fields.
+- **Boost Conversions**: Follow up faster and turn leads into customers.
 
 ## Real-World Example: Meet Sales Superstar Alex
 
@@ -29,4 +30,4 @@ Alex used to spend **2 hours a day** transferring LinkedIn leads to HubSpot. Now
 - **Sales teams** tired of manual lead entry.
 - **Marketing teams** integrating LinkedIn with HubSpot.
 
-[**Stop Wasting Time—Automate Your LinkedIn Leads Now!** →](/templates/linkedin-hubspot-sync)
+[**Stop Wasting Time—Automate Your LinkedIn Leads Now!** →](/templates/#linkedin-hubspot)

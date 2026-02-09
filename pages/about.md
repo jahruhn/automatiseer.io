@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Over Mij
+permalink: /about/
 ---
 
 # Over Mij
 
 Ik ben **Jeroen Tuijn**, gespecialiseerd in het automatiseren van sales- en marketingprocessen met **n8n** en **Power Automate**. Mijn missie is om bedrijven te helpen tijd en middelen te besparen door repetitieve taken te automatiseren.
 
-## 🎯 Mijn Missie
+## Mijn Missie
 
 Ik geloof dat automatisering de sleutel is tot efficiëntie en groei. Door mijn kant-en-klare workflows kunnen bedrijven:
 
@@ -16,7 +17,7 @@ Ik geloof dat automatisering de sleutel is tot efficiëntie en groei. Door mijn 
 - **Schaalbaarheid** bereiken zonder extra resources
 - **Betere beslissingen** nemen met geautomatiseerde data-analyse
 
-## 🛠️ Mijn Vaardigheden
+## Mijn Vaardigheden
 
 - **n8n Workflows**: Geavanceerde automatisering met n8n
 - **Power Automate**: Microsoft Flow integraties
@@ -24,7 +25,7 @@ Ik geloof dat automatisering de sleutel is tot efficiëntie en groei. Door mijn 
 - **API Integraties**: REST, GraphQL, Webhooks
 - **Data Analyse**: Automatische rapportage en inzichten
 
-## 🌍 Mijn Aanpak
+## Mijn Aanpak
 
 Ik werk nauw samen met klanten om:
 
@@ -34,7 +35,7 @@ Ik werk nauw samen met klanten om:
 4. **Implementatie en training** te verzorgen
 5. **Continu verbeteren** op basis van feedback
 
-## 📞 Contact
+## Contact
 
 Wil je samenwerken, een template aanpassen of gewoon meer weten? Neem gerust <a href="{{ site.baseurl }}/pages/contact">contact</a> met me op!
 

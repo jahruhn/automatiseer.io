@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
 # Neem Contact Op
 
 Heb je vragen, opmerkingen of wil je samenwerken? Vul onderstaand formulier in en ik neem zo snel mogelijk contact met je op.
 
-## 📝 Contactformulier
+## Contactformulier
 
 <form name="contact" method="POST" netlify>
   <div class="form-group">
@@ -28,7 +29,7 @@ Heb je vragen, opmerkingen of wil je samenwerken? Vul onderstaand formulier in e
   <button type="submit" class="button">Verzenden</button>
 </form>
 
-## 📧 Andere Contactmogelijkheden
+## Andere Contactmogelijkheden
 
 - **E-mail**: [{{ site.email }}](mailto:{{ site.email }})
 - **LinkedIn**: [{{ site.linkedin_username }}](https://www.linkedin.com/in/{{ site.linkedin_username }}/)

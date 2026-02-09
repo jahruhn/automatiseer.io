@@ -1,8 +1,9 @@
 ---
 layout: blog
-title: "🤖 AI Support Triage: Turn Ticket Chaos into Customer Happiness"
+title: "AI Support Triage: Turn Ticket Chaos into Customer Happiness"
 date: 2024-10-08
 description: "Drowning in support tickets? Let AI sort the mess so your team can focus on making customers smile!"
+image: /assets/images/blog-ai-triage.png
 ---
 
 # AI Support Triage: Your Support Team’s New Superpower
@@ -11,14 +12,14 @@ Your support team is **drowning in tickets**. Some are urgent, some are simple, 
 
 ## How It Works (Your New Support Sidekick)
 
-1. **🎫 Ticket Ingestion**: The workflow pulls support tickets from Zendesk or Freshdesk. No more manual checks!
-2. **🤖 AI Analysis**: AI categorizes and prioritizes tickets based on urgency, topic, and customer history.
-3. **👨‍💼 Assignment**: Tickets are automatically assigned to the right support agents. No more "Who’s handling this?"
+1. **Ticket Ingestion**: The workflow pulls support tickets from Zendesk or Freshdesk. No more manual checks!
+2. **AI Analysis**: AI categorizes and prioritizes tickets based on urgency, topic, and customer history.
+3. **Assignment**: Tickets are automatically assigned to the right support agents. No more "Who’s handling this?"
 
 ## Why You’ll Love It
-- **⚡ Faster Response Times**: Urgent tickets get prioritized, so customers aren’t left waiting.
-- **⏳ Improve Efficiency**: No more manual ticket sorting. Your team can focus on solving problems, not organizing them.
-- **😊 Enhance Customer Satisfaction**: Faster responses = happier customers.
+- **Faster Response Times**: Urgent tickets get prioritized, so customers aren’t left waiting.
+- **Improve Efficiency**: No more manual ticket sorting. Your team can focus on solving problems, not organizing them.
+- **Enhance Customer Satisfaction**: Faster responses = happier customers.
 
 ## Real-World Example: Meet SupportHero
 
